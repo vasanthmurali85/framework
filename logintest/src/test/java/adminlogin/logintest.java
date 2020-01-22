@@ -15,7 +15,7 @@ public class logintest extends launchbrow{
 	
   @Test (priority = 10, groups = "smoke")
   public void f() throws IOException {	  
-	  
+	  //This is the change made.
 	  logger1 = report1.createTest("This is to verify login");
 	  actioncommands acom1 = new actioncommands();
 	  
