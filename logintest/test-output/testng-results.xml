@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-22T14:45:16 IST" name="Default suite" finished-at="2020-01-22T14:45:26 IST" duration-ms="9574">
+    <groups>
+      <group name="smoke">
+        <method signature="logintest.f()[pri:10, instance:adminlogin.logintest@7b227d8d]" name="f" class="adminlogin.logintest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-01-22T14:45:16 IST" name="Default test" finished-at="2020-01-22T14:45:26 IST" duration-ms="9574">
+      <class name="adminlogin.logintest">
+        <test-method is-config="true" signature="bf()[pri:0, instance:adminlogin.logintest@7b227d8d]" started-at="2020-01-22T14:45:16 IST" name="bf" finished-at="2020-01-22T14:45:16 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bf -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:adminlogin.logintest@7b227d8d]" started-at="2020-01-22T14:45:16 IST" name="beforeClass" finished-at="2020-01-22T14:45:20 IST" duration-ms="3887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:10, instance:adminlogin.logintest@7b227d8d]" started-at="2020-01-22T14:45:20 IST" name="f" finished-at="2020-01-22T14:45:25 IST" duration-ms="4653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="af1()[pri:0, instance:adminlogin.logintest@7b227d8d]" started-at="2020-01-22T14:45:25 IST" name="af1" finished-at="2020-01-22T14:45:25 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:adminlogin.logintest@7b227d8d]" started-at="2020-01-22T14:45:25 IST" name="afterClass" finished-at="2020-01-22T14:45:26 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- adminlogin.logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
